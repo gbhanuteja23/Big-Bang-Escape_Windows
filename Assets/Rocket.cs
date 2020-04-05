@@ -22,46 +22,51 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessInput();
+        Thrust();          // Function which handles thrusting of rocket
+
+        Rotate();            //Function which handles rotation of rocket
         
     }
-
-                          // Unity uses left handed system, this means pressing A turns anti-clockwise
-                          //and pressing D, turns clockwise direction
+                                      // Unity uses left handed system, this means pressing A turns anti-clockwise
+                                     //and pressing D, turns clockwise direction
 
                                      //Vector3 is a struct which stores the coordinates of the bodies
-    private void ProcessInput()
+
+    private void Rotate()       //Function which handles rotation of rocket
     {
-        if(Input.GetKey(KeyCode.Space))    //Read about Input.GetKey() from the concepts of C# folder
+        rigidBody.freezeRotation = true; // freezing the rotaton to control the ship manually
+        
+        if (Input.GetKey(KeyCode.A))   //KeyCode is an enum where all the key values of keyboard are stored
+        {
+            transform.Rotate(Vector3.forward);     //To rotate the rocket in anti-clockwise direction (-z axis)                                   
+                                                   // forward corresponds to z axis in unity
+        }
+
+        else if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(-Vector3.forward);   //To rotate in clockwise direction (+z axis)
+
+        }
+
+        rigidBody.freezeRotation = false;   //To resume physics(automatic) simulation of rotation
+    }
+
+    private void Thrust()           // Function which handles thrusting of rocket
+    {
+        if (Input.GetKey(KeyCode.Space))    //Read about Input.GetKey() from the concepts of C# folder
         {
             rigidBody.AddRelativeForce(Vector3.up);          // Press Space for Thrusting the rocket upwards
 
-            if(!rocketSound.isPlaying)  //If rocketSound is not playing then play else not, so as to not repeat it.
+            if (!rocketSound.isPlaying)  //If rocketSound is not playing then play else not, so as to not repeat it.
             {
                 rocketSound.Play();    //To play the audio source when Space is pressed
             }
-            
+
         }
 
         else
         {
             rocketSound.Stop();   // To stop playing rocketSound
         }
-
-
-        if (Input.GetKey(KeyCode.A))   //KeyCode is an enum where all the key values of keyboard are stored
-        {
-            transform.Rotate(Vector3.forward);     //To rotate the rocket (-z axis) direction
-                                                  //anti-clockwise direction rotation
-                                                  // forward corresponds to z axis in unity
-        }
-
-        else if(Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(-Vector3.forward);   //To rotate in clockwise direction (+z axis)
-           
-        }
-        
     }
-   
 }
