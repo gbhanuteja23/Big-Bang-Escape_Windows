@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2223866724836491009
+--- !u!1 &3890993478458875519
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2223866724836491038}
-  - component: {fileID: 2223866724836491039}
-  - component: {fileID: 2223866724836491008}
+  - component: {fileID: 3890993478458875488}
+  - component: {fileID: 3890993478458875489}
+  - component: {fileID: 3890993478458875518}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -18,27 +18,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2223866724836491038
+--- !u!4 &3890993478458875488
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2223866724836491009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_GameObject: {fileID: 3890993478458875519}
+  m_LocalRotation: {x: 0.06670157, y: -0.02299188, z: -0.0037045449, w: 0.9975012}
+  m_LocalPosition: {x: -0.15, y: 0.17, z: -13.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &2223866724836491039
+  m_LocalEulerAnglesHint: {x: 7.6370006, y: -2.6810002, z: -0.605}
+--- !u!20 &3890993478458875489
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2223866724836491009}
+  m_GameObject: {fileID: 3890993478458875519}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -74,11 +74,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &2223866724836491008
+--- !u!81 &3890993478458875518
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2223866724836491009}
+  m_GameObject: {fileID: 3890993478458875519}
   m_Enabled: 1
