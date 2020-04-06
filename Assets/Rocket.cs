@@ -37,23 +37,26 @@ public class Rocket : MonoBehaviour
                                      //Vector3 is a struct which stores the coordinates of the bodies
 
     private void Rotate()       //Function which handles rotation of rocket
-    {
+    {        
         rigidBody.freezeRotation = true; // freezing the rotaton to control the ship manually
-        
+
+        float rotateThisFrame = rcsThrust * Time.deltaTime;    //Time.deltatime provides the time b/w current and previous frame
+
         if (Input.GetKey(KeyCode.A))   //KeyCode is an enum where all the key values of keyboard are stored
-        {
-            transform.Rotate(Vector3.forward);     //To rotate the rocket in anti-clockwise direction (-z axis)                                   
-                                                   // forward corresponds to z axis in unity
+        {           
+            transform.Rotate(Vector3.forward*rotateThisFrame);     //To rotate the rocket in anti-clockwise direction (-z axis)                                   
+                                                                // forward corresponds to z axis in unity
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(-Vector3.forward);   //To rotate in clockwise direction (+z axis)
+            transform.Rotate(-Vector3.forward*rotateThisFrame);   //To rotate in clockwise direction (+z axis)
 
         }
 
         rigidBody.freezeRotation = false;   //To resume physics(automatic) simulation of rotation
     }
+
 
     private void Thrust()           // Function which handles thrusting of rocket
     {
