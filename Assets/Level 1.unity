@@ -306,75 +306,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3de55af1fc954d343b032715dc724cc9, type: 3}
---- !u!1001 &168597629553206706
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 168597629997312854, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_Name
-      value: Rocket Ship
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 168597629997312858, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4bba18eafc03d5248bfd6e1fa91ab09a, type: 3}
 --- !u!1001 &3890993478632043569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -597,6 +528,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3de55af1fc954d343b032715dc724cc9, type: 3}
+--- !u!1001 &7186464038609532184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403056, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186464038182403068, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Ship
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4bba18eafc03d5248bfd6e1fa91ab09a, type: 3}
 --- !u!1001 &7393838645357616886
 PrefabInstance:
   m_ObjectHideFlags: 0
