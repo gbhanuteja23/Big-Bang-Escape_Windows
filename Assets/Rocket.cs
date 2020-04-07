@@ -10,9 +10,11 @@ public class Rocket : MonoBehaviour
     AudioSource rocketSound;   //declaring variable rocketSound of type AudioSource
 
     [SerializeField] float rcsThrust = 100f;   //f states that 100 is a floating no.  rcs stands for rection control system
-                              //variable to control speed of rocket
+                                               //variable to control speed of rocket
 
-                              //Serializing private field lets you control it in Unity Inspector
+    //Serializing private field lets you control it in Unity Inspector
+
+    [SerializeField] float mainThrust = 100f;   //mainThrust variable to change the thrust of ship depending on it's mass
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +64,7 @@ public class Rocket : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))    //Read about Input.GetKey() from the concepts of C# folder
         {
-            rigidBody.AddRelativeForce(Vector3.up);          // Press Space for Thrusting the rocket upwards
+            rigidBody.AddRelativeForce(Vector3.up*mainThrust);          // Press Space for Thrusting the rocket upwards
 
             if (!rocketSound.isPlaying)  //If rocketSound is not playing then play else not, so as to not repeat it.
             {
