@@ -56,6 +56,32 @@ public class Rocket : MonoBehaviour
 
         }
 
+
+        else if (Input.GetKey(KeyCode.W))
+        {
+            transform.Rotate(-new Vector3(0,1,0) * rotateThisFrame);   //To rotate in clockwise direction (+y axis)
+
+        }
+
+        else if (Input.GetKey(KeyCode.S))
+        {
+            transform.Rotate(new Vector3(0, 1, 0) * rotateThisFrame);   //To rotate in anti-clockwise direction (-y axis)
+
+        }
+
+        else if (Input.GetKey(KeyCode.Q))
+        {
+            transform.Rotate(-new Vector3(1, 0, 0) * rotateThisFrame);   //To rotate in clockwise direction (+x axis)
+
+        }
+
+        else if (Input.GetKey(KeyCode.E))
+        {
+            transform.Rotate(new Vector3(1, 0, 0) * rotateThisFrame);   //To rotate in clockwise direction (-x axis)
+
+        }
+
+
         rigidBody.freezeRotation = false;   //To resume physics(automatic) simulation of rotation
     }
 
