@@ -110,6 +110,28 @@ public class Rocket : MonoBehaviour
 
         }
 
+        else if (Input.GetKey(KeyCode.UpArrow))    //Read about Input.GetKey() from the concepts of C# folder
+        {
+            rigidBody.AddRelativeForce(new Vector3(0,0,1) * mainThrust);          // Press Up Arrow(↑) for Thrusting the rocket forward (+z axis)
+
+            if (!rocketSound.isPlaying)  //If rocketSound is not playing then play else not, so as to not repeat it.
+            {
+                rocketSound.Play();    //To play the audio source when Space is pressed
+            }
+
+        }
+
+        else if (Input.GetKey(KeyCode.DownArrow))    //Read about Input.GetKey() from the concepts of C# folder
+        {
+            rigidBody.AddRelativeForce(new Vector3(0, 0, -1) * mainThrust);          // Press down Arrow(↓) for Thrusting the rocket backward (-z axis)
+
+            if (!rocketSound.isPlaying)  //If rocketSound is not playing then play else not, so as to not repeat it.
+            {
+                rocketSound.Play();    //To play the audio source when Space is pressed
+            }
+
+        }
+
         else
         {
             rocketSound.Stop();   // To stop playing rocketSound
