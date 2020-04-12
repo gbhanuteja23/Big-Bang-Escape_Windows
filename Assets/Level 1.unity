@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: aaaa169af5ee5ef4486393efc230deba,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -35901,11 +35902,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 8912901150185880594, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: mainThrust
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 8912901150185880596, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35959,26 +35955,6 @@ PrefabInstance:
     - target: {fileID: 8912901150185880596, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8912901150185880596, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5717798
-      objectReference: {fileID: 0}
-    - target: {fileID: 8912901150185880596, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5717798
-      objectReference: {fileID: 0}
-    - target: {fileID: 8912901150185880596, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5717798
-      objectReference: {fileID: 0}
-    - target: {fileID: 8912901150185880597, guid: 4bba18eafc03d5248bfd6e1fa91ab09a,
-        type: 3}
-      propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
