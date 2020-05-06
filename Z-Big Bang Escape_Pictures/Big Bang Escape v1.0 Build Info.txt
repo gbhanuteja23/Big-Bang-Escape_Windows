@@ -1,0 +1,23 @@
+I have developed v1.0 of this open-world starship riding game which will be having different levels.  
+I have developed this game in Unity. Designed the starship and the game world by myself but added few more free assets from Unity Asset Store.  Programmed the whole game myself in C#. 
+
+Assets used from Unity Asset Store:-
+1.  RUNEMARK STUDIO POLYDesert
+
+2. JUSTCREATE Low-Poly Simple Nature Pack
+
+Features added to previous beta versio:-
+
+1. Flame to rocket boosters.
+2. Minimap to see the position of player in gameworld.
+3. More possible rotation combinations for the rocket.
+
+I will very soon upload the link in the description of this video so that you can download the game for free for both Windows and Android. 
+
+Game Developed on:-
+DELL Inspiron 5570 Laptop.
+
+Specifications:-
+1. Intel Core i5 8th Generation 
+2. 16 GB DDR4 Ram
+3. AMD Radeon 530, 2GB DDR5 Graphics Card
